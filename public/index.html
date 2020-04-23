@@ -9,15 +9,20 @@
   <link rel="stylesheet" href="/build/tailwind.css">
   <title>Social Media Dashboard</title>
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
 
 <body class="font-serif antialiased bg-white dark:bg-dark dark:text-white text-dark">
   <div class="max-w-full mx-auto">
-    <div
-      class="flex flex-row justify-between mx-6 mt-5 lg:mx-10">
+    <div class="flex flex-row justify-between mx-6 mt-5 lg:mx-10">
       <div class="flex flex-col">
         <div class="text-2xl font-bold text-left">Social Media Dashboard</div>
         <div class="font-bold text-left text-md text-dark-grayish-blue dark:text-dark-desatured-blue">Total Followers:
@@ -41,13 +46,14 @@
 
     <div class="flex flex-col justify-between py-4 mx-6 lg:mx-10 lg:flex-row">
       <!-- facebook -->
-      <div class="w-full mx-0 my-4 border-t-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mr-4 lg:w-1/4 bg-light-card dark:bg-dark-card border-facebook">
+      <div
+        class="w-full mx-0 my-4 border-t-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mr-4 lg:w-1/4 bg-light-card dark:bg-dark-card border-facebook">
         <div class="flex flex-col items-center py-6">
           <div class="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-facebook">
               <path
                 d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104A1.102 1.102 0 0018.896 0z" />
-              </svg>
+            </svg>
             <div class="mx-3 dark:text-dark-desatured-blue text-dark-grayish-blue">@nathanf</div>
           </div>
           <div class="mt-2 text-5xl font-bold text-dark dark:text-white">1987</div>
@@ -64,13 +70,14 @@
       </div>
 
       <!-- twitter -->
-      <div class="w-full mx-0 my-4 border-t-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card border-twitter">
+      <div
+        class="w-full mx-0 my-4 border-t-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card border-twitter">
         <div class="flex flex-col items-center py-6">
           <div class="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-twitter">
               <path
                 d="M20 1.924a8.192 8.192 0 01-2.357.646A4.11 4.11 0 0019.448.3a8.22 8.22 0 01-2.606.996A4.096 4.096 0 0013.847 0c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 011.392.752a4.109 4.109 0 001.27 5.478 4.086 4.086 0 01-1.858-.513C.76 7.616 2.122 9.395 4.095 9.79a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.833 2.849A8.25 8.25 0 010 14.41a11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.663-12.205A8.354 8.354 0 0020 1.924z" />
-              </svg>
+            </svg>
             <div class="mx-3 dark:text-dark-desatured-blue text-dark-grayish-blue">@nathanf</div>
           </div>
           <div class="mt-2 text-5xl font-bold text-dark dark:text-white">1044</div>
@@ -93,7 +100,7 @@
           <div class="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
               <defs>
-                <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                <linearGradient x1="100%" x2="0%" y1="0%" y2="100%">
                   <stop offset="0%" stop-color="#DF4896" />
                   <stop offset="50.913%" stop-color="#EE877E" />
                   <stop offset="100%" stop-color="#FDC366" />
@@ -118,13 +125,14 @@
       </div>
 
       <!-- youtube -->
-      <div class="w-full mx-0 my-4 border-t-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:ml-4 lg:w-1/4 bg-light-card dark:bg-dark-card border-youtube">
+      <div
+        class="w-full mx-0 my-4 border-t-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:ml-4 lg:w-1/4 bg-light-card dark:bg-dark-card border-youtube">
         <div class="flex flex-col items-center py-6">
           <div class="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-youtube">
               <path
                 d="M10 0C4.478 0 0 4.478 0 10c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.7 14.077c-1.75.12-5.652.12-7.402 0-1.896-.13-2.117-1.059-2.131-4.077.014-3.024.237-3.947 2.131-4.077 1.75-.12 5.652-.12 7.403 0 1.897.13 2.117 1.059 2.132 4.077-.015 3.024-.237 3.947-2.132 4.077zM8.334 8.048l4.098 1.949-4.098 1.955V8.048z" />
-              </svg>
+            </svg>
             <div class="mx-3 dark:text-dark-desatured-blue text-dark-grayish-blue">@nathanf</div>
           </div>
           <div class="mt-2 text-5xl font-bold text-dark dark:text-white">8239</div>
@@ -147,13 +155,14 @@
 
     <div class="pt-2 mx-6 lg:mx-10">
       <div class="flex flex-col justify-between lg:flex-row">
-        <div class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mr-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
+        <div
+          class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mr-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
           <div class="flex items-center justify-between">
             <div class="text-md text-dark-grayish-blue dark:text-dark-desatured-blue">Page Views</div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-facebook">
               <path
                 d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104A1.102 1.102 0 0018.896 0z" />
-              </svg>
+            </svg>
           </div>
           <div class="flex items-center justify-between mt-4">
             <div class="text-4xl font-bold text-dark dark:text-white">87</div>
@@ -167,13 +176,14 @@
           </div>
         </div>
 
-        <div class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
+        <div
+          class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
           <div class="flex items-center justify-between">
             <div class="text-md text-dark-grayish-blue dark:text-dark-desatured-blue">Likes</div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-facebook">
               <path
                 d="M18.896 0H1.104C.494 0 0 .494 0 1.104v17.793C0 19.506.494 20 1.104 20h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583 1.578-3.99 3.883-3.99 1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.597-1.496 1.47v1.928h2.989l-.39 3.018h-2.6V20h5.098c.608 0 1.102-.494 1.102-1.104V1.104A1.102 1.102 0 0018.896 0z" />
-              </svg>
+            </svg>
           </div>
           <div class="flex items-center justify-between mt-4">
             <div class="text-4xl font-bold text-dark dark:text-white">52</div>
@@ -187,12 +197,13 @@
           </div>
         </div>
 
-        <div class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
+        <div
+          class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
           <div class="flex items-center justify-between">
             <div class="text-md text-dark-grayish-blue dark:text-dark-desatured-blue">Likes</div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
               <defs>
-                <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                <linearGradient x1="100%" x2="0%" y1="0%" y2="100%">
                   <stop offset="0%" stop-color="#DF4896" />
                   <stop offset="50.913%" stop-color="#EE877E" />
                   <stop offset="100%" stop-color="#FDC366" />
@@ -214,12 +225,13 @@
           </div>
         </div>
 
-        <div class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:ml-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
+        <div
+          class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:ml-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
           <div class="flex items-center justify-between">
             <div class="text-md text-dark-grayish-blue dark:text-dark-desatured-blue">Profile Views</div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
               <defs>
-                <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+                <linearGradient x1="100%" x2="0%" y1="0%" y2="100%">
                   <stop offset="0%" stop-color="#DF4896" />
                   <stop offset="50.913%" stop-color="#EE877E" />
                   <stop offset="100%" stop-color="#FDC366" />
@@ -243,13 +255,14 @@
       </div>
 
       <div class="flex flex-col justify-between lg:flex-row">
-        <div class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mr-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
+        <div
+          class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mr-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
           <div class="flex items-center justify-between">
             <div class="text-md text-dark-grayish-blue dark:text-dark-desatured-blue">Retweets</div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-twitter">
               <path
                 d="M20 1.924a8.192 8.192 0 01-2.357.646A4.11 4.11 0 0019.448.3a8.22 8.22 0 01-2.606.996A4.096 4.096 0 0013.847 0c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 011.392.752a4.109 4.109 0 001.27 5.478 4.086 4.086 0 01-1.858-.513C.76 7.616 2.122 9.395 4.095 9.79a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.833 2.849A8.25 8.25 0 010 14.41a11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.663-12.205A8.354 8.354 0 0020 1.924z" />
-              </svg>
+            </svg>
           </div>
           <div class="flex items-center justify-between mt-4">
             <div class="text-4xl font-bold text-dark dark:text-white">117</div>
@@ -263,13 +276,14 @@
           </div>
         </div>
 
-        <div class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
+        <div
+          class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
           <div class="flex items-center justify-between">
             <div class="text-md text-dark-grayish-blue dark:text-dark-desatured-blue">Likes</div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-twitter">
               <path
                 d="M20 1.924a8.192 8.192 0 01-2.357.646A4.11 4.11 0 0019.448.3a8.22 8.22 0 01-2.606.996A4.096 4.096 0 0013.847 0c-2.65 0-4.596 2.472-3.998 5.037A11.648 11.648 0 011.392.752a4.109 4.109 0 001.27 5.478 4.086 4.086 0 01-1.858-.513C.76 7.616 2.122 9.395 4.095 9.79a4.113 4.113 0 01-1.853.07 4.106 4.106 0 003.833 2.849A8.25 8.25 0 010 14.41a11.616 11.616 0 006.29 1.843c7.618 0 11.922-6.434 11.663-12.205A8.354 8.354 0 0020 1.924z" />
-              </svg>
+            </svg>
           </div>
           <div class="flex items-center justify-between mt-4">
             <div class="text-4xl font-bold text-dark dark:text-white">507</div>
@@ -283,13 +297,14 @@
           </div>
         </div>
 
-        <div class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
+        <div
+          class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:mx-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
           <div class="flex items-center justify-between">
             <div class="text-md text-dark-grayish-blue dark:text-dark-desatured-blue">Likes</div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-youtube">
               <path
                 d="M10 0C4.478 0 0 4.478 0 10c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.7 14.077c-1.75.12-5.652.12-7.402 0-1.896-.13-2.117-1.059-2.131-4.077.014-3.024.237-3.947 2.131-4.077 1.75-.12 5.652-.12 7.403 0 1.897.13 2.117 1.059 2.132 4.077-.015 3.024-.237 3.947-2.132 4.077zM8.334 8.048l4.098 1.949-4.098 1.955V8.048z" />
-              </svg>
+            </svg>
           </div>
           <div class="flex items-center justify-between mt-4">
             <div class="text-4xl font-bold text-dark dark:text-white">107</div>
@@ -303,13 +318,14 @@
           </div>
         </div>
 
-        <div class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:ml-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
+        <div
+          class="w-full p-5 mx-0 my-4 rounded cursor-pointer hover:bg-gray-300 dark-hover:bg-gray-800 lg:ml-4 lg:w-1/4 bg-light-card dark:bg-dark-card">
           <div class="flex items-center justify-between">
             <div class="text-md text-dark-grayish-blue dark:text-dark-desatured-blue">Total Views</div>
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current text-youtube">
               <path
                 d="M10 0C4.478 0 0 4.478 0 10c0 5.523 4.478 10 10 10 5.523 0 10-4.477 10-10 0-5.522-4.477-10-10-10zm3.7 14.077c-1.75.12-5.652.12-7.402 0-1.896-.13-2.117-1.059-2.131-4.077.014-3.024.237-3.947 2.131-4.077 1.75-.12 5.652-.12 7.403 0 1.897.13 2.117 1.059 2.132 4.077-.015 3.024-.237 3.947-2.132 4.077zM8.334 8.048l4.098 1.949-4.098 1.955V8.048z" />
-              </svg>
+            </svg>
           </div>
           <div class="flex items-center justify-between mt-4">
             <div class="text-4xl font-bold text-dark dark:text-white">1407</div>
@@ -325,9 +341,9 @@
       </div>
     </div>
   </div>
-  
+
   <div class="my-5 attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://twitter.com/mirzarm" target="_blank">Mirza Rizky</a>.
   </div>
 
