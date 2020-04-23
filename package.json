@@ -7,7 +7,10 @@
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
-    "tailwindcss": "^1.0"
+    "tailwindcss": "^1.0",
+    "tailwindcss-border-gradients": "^2.0.3",
+    "tailwindcss-dark-mode": "^1.1.4",
+    "tailwindcss-gradients": "^3.0.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
